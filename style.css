@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #adfdc1;
-  --secondary-color: #a4f7db;
+  --branding-color: hsl(135, 91%, 92%);
+  --secondary-color: #c3f7e5;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --logo-font-family: "Herr Von Muellerhoff", cursive;
@@ -97,7 +97,7 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: rgb(230, 236, 233);
+  color: rgb(207, 101, 248);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -191,7 +191,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: rgb(230, 236, 233);
+  color: rgb(207, 101, 248);
   background: var(--branding-color);
 }
 
