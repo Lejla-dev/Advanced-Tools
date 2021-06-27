@@ -97,7 +97,7 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: white;
+  color: rgb(166, 255, 203);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -191,7 +191,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: white;
+  color: rgb(166, 255, 203);
   background: var(--branding-color);
 }
 
