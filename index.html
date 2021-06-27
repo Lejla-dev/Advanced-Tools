@@ -5,99 +5,146 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description"
-        content="Lejla Latic is a front-end developer based in Switzerland, check out his projects" />
-    <title>Front-end developer / Lejla Latic</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    <meta name="description" content="Nastassja is a front-end engineer based in London " />
+    <title>Front-end developer - Nastassja Basekay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="https://kit.fontawesome.com/075fd360eb.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="/" title="Homepage">Lejla Latic</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/" tilte="Homepage">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about.html" title="About Matt Delac">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about.html#contact" title="Contact Matt Delac">Contact me</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <h2 class="text-center">👋 Hi I am</h2>
-    <h1 class="text-center">Lejla Latic</h1>
-    <h3 class="text-center">Front-end developer, based in Switzerland</h3>
-    <div class="navigation-links mb-5">
-        <a href="/about.html#contact" class="primary-link" title="Contact Matt Delac">Contact me</a>
-        <a href="/about.html" class="secondary-link" title="About Matt Delac">About me</a>
-    </div>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="/images/yoga.png" alt="Yoga project " class="img-fluid rounded d-none d-sm-block" />
+        <nav class="d-flex justify-content-between">
+            <a href="/" class="navbar-logo d-none d-md-block" title="Homepage">
+                Nastassja Basekay</a>
+            <a href="/" class="navbar-logo-small d-block d-md-none" title="Homepage">
+                N.B</a>
+            <ul>
+                <li class="active">
+                    <a href="/" title="Homepage">Home</a>
+                </li>
+                <li>
+                    <a href="/about.html" title="About Nastassja">About</a>
+                </li>
+                <li>
+                    <a href="/work.html" title="Nastassjas Work">Work</a>
+                </li>
+                <li>
+                    <a href="/contact.html" title="Contact Nastassja">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="hero">
+        <p>👋🏾 Hello, I am</p>
+        <h1>Nastassja Basekay</h1>
+        <h2 class="mb-5">Front-end developer based in London</h2>
+        <div>
+            <a href="/contact.html" class="btn btn-branding" title="Contact Nastassja">Contact me</a>
+        </div>
+    </div>
+    <p class="text-center m-5">
+        Featured Project which my best projects be choice to show
+    </p>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col d-none d-lg-block">
+                <img src="images/Yogurt.png" class="img-fluid" alt="Yogurt project preview" />
             </div>
-            <div class="col-sm-6">
-                <h2 class="mb-3">Yoga app</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-                    quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-                    eos eveniet alias temporibus deserunt veritatis minima fugiat
-                    explicabo eum dolore.
-                </p>
-                <div class="mt-5">
-                    <a href="#" class="primary-link project-link" title="Yoga project">Launch Yoga App</a>
+            <div class="col">
+                <div class="project-description">
+                    <h2 class="mb-5">Yogurt Project</h2>
+                    <p class="mb-5 text-muted">
+                        Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts. Separated
+                        they live in Bookmarksgrove right at the coast of the Semantics, a
+                        large language ocean. A small river named Duden flows by
+                    </p>
+                    <a href="/work.html" class="btn btn-branding-outline" title="Learn more">Learn more</a>
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-sm-6">
-                <h2 class="mb-3">Weather app</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-                    quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-                    eos eveniet alias temporibus deserunt veritatis minima fugiat
-                    explicabo eum dolore.
-                </p>
-                <div class="mt-5">
-                    <a href="#" class="primary-link project-link" title="Weather project">Launch Weather App</a>
+        <div class="row mb-5">
+            <div class="col">
+                <div class="project-description">
+                    <h2 class="mb-5">Weather App</h2>
+                    <p class="mb-5 text-muted">
+                        Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts. Separated
+                        they live in Bookmarksgrove right at the coast of the Semantics, a
+                        large language ocean. A small river named Duden flows by
+                    </p>
+                    <a href="/work.html" class="btn btn-branding-outline" title="Learn more">Learn more</a>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <img src="/images/weather.png" class="img-fluid rounded d-none d-sm-block" alt="Weather project" />
+            <div class="col d-none d-lg-block">
+                <img src="images/Weather.png" class="img-fluid" alt="Weather project preview" />
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-sm-6">
-                <img src="/images/yogurt.png" class="img-fluid rounded d-none d-sm-block" alt="Yogurt project" />
+        <div class="row mb-5">
+            <div class="col d-none d-lg-block">
+                <img src="images/Dictionary.png" class="img-fluid" alt="Dictionary project preview" />
             </div>
-            <div class="col-sm-6">
-                <h2 class="mb-3">Yogurt app</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-                    quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-                    eos eveniet alias temporibus deserunt veritatis minima fugiat
-                    explicabo eum dolore.
-                </p>
-                <div class="mt-5">
-                    <a href="#" class="primary-link project-link" title="Weather project">Launch Yogurt App</a>
+            <div class="col">
+                <div class="project-description">
+                    <h2 class="mb-5">Dictionary App</h2>
+                    <p class="mb-5 text-muted">
+                        Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts. Separated
+                        they live in Bookmarksgrove right at the coast of the Semantics, a
+                        large language ocean. A small river named Duden flows by
+                    </p>
+                    <a href="/work.html" class="btn btn-branding-outline" title="Learn more">Learn more</a>
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="
+            contact-box
+            d-flex
+            justify-content-between
+            mb-5
+            d-none d-md-flex
+          ">
+                <div>
+                    <h3>Work Inquiry</h3>
+                    <p class="text-muted">Let's work together</p>
+                </div>
+                <div>
+                    <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Nastassja">Contact me</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mb-5">
+                <a href="mailto:nannalebo@gmail.com" class="email-link" title="Email Nastassja">Email me</a>
+            </div>
+            <div class="social-links d-flex justify-content-center">
+                <a href="https://github.com/nbasekaylebo" target="_blank" title="GitHub profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://instagram.com/nannalebo.codes" target="_blank" title="Instagram profile">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/nannalebo" target="_blank" title="Twitter profile">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <p class="text-center mt-4 end">
+                This project was coded by Nastassja Basekay and it is
+                <a href="https://github.com/nbasekaylebo/portfolio-project" target="_blank">
+                    open-sourced.
+                </a>
+            </p>
+        </footer>
     </div>
 </body>
 
